@@ -1,0 +1,19 @@
+
+
+<TITLE></TITLE>
+
+<SCRIPT type="text/javascript" src="Alert/js/jquery.min.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="Alert/jquery.easing.1.3.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="Alert/js/alertbox.js"></SCRIPT>
+<LINK rel="stylesheet" type="text/css" media="all" href="Alert/js/style.css">
+</HEAD>
+<BODY onload=csscody.alert('Titulo');return false;>
+  
+<!--		<A href="" onclick="csscody.alert('<h1>Titulo</h1>SubTitulo<br/><p>Mensaje </p><p> 2da Linea Mensaje<p>');return false;">Info Message Popup Alert</A></P>
+		<br />
+	<A href="" onclick="csscody.error('<h1>Titulo Mensaje De Error</h1><em></em><br/><p>Mensaje De Error</p>');return false;">Error Message Popup Alert</A></P> -->
+
+
+    
+	
+</BODY></HTML>

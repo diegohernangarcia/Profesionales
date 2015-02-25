@@ -1,0 +1,28 @@
+<?php 
+	require("../Funciones/EstaSesion.php");
+?>
+<html>
+	<head>
+	<title> Consulta Usuarios Por Permiso </title>
+	</head><BODY bgcolor="#cccccc"  onload="document.getElementById('entradaselect').focus()">
+	<form name="f_prof" id="f_prof" action="ConsultaUsuariosPorPermiso.php" method="post">
+	
+		<h1> <CENTER> SISTEMA REGISTRO PROFESIONALES </center></h1> 
+		<table>
+		<table>
+		<table border="2" cellpadding="2" cellspacing="0" align="center">
+		<tr> <td> <center>Consulta Usuarios Por Permisos </center></td>
+		
+		
+		</tr><tr><td><p><center><b>Tipo de Usuario</b></center>
+		<select name="entradaselect"><center>
+		<option>Inicial: Solo Consultas</option>
+		<option>Medio: Consultas y Altas</option>
+		<option>Avanzado: Consulta, Altas, Manejo Usuarios</option> </select></p></td></tr>
+		<tr><td><center><input type="submit" value="ENVIAR" name="ok" id="ok" /> </center></td></tr></form><center><form>  </form></center> </td></tr>
+		<tr><td><center>  <a href="../Principal.html">Volver</a></center></td></tr>
+		</table>
+		  
+		
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<?php 
+	require("../Funciones/EstaSesion.php");
+?>
+<html>
+	<head>
+	<title> Creacion Nuevos Usuarios </title>
+	</head><BODY bgcolor="#cccccc"  onload="document.getElementById('queusuario').focus()">
+	<form name="f_prof" id="f_prof" action="NuevoUsuario.php" method="post">
+	
+		<h1> <CENTER> SISTEMA REGISTRO PROFESIONALES </center></h1> 
+		<table>
+		<center> <b>Nuevo Usuario </b> </center>
+		<table>
+		<table border="2" cellpadding="2" cellspacing="0" align="center">
+		<tr> <td> <center>Usuario Sistema<input type="text" name="queusuario" id="queusuario" /> </center></td>
+		</tr><tr> <td> <center>Nombre           :<input type="text" name="nombre" id="nombre" /> <br />
+		          <center>Apellido :<input type="test" name="apellido" id="apellido" /></center></center></td></tr>
+		</tr>
+		<tr> <td><center> Contraseña           :<input type="password" name="Password" id="Password" /> <br />
+		      <center>    Reingrese Contraseña :<input type="password" name="Password2" id="Password2" /></center></center></td></tr>
+		<tr><td><p><center><b>Tipo de Usuario</b></center>
+		<select name="entradaselect"><center>
+		<option>Inicial: Solo Consultas</option>
+		<option>Medio: Consultas y Altas</option>
+		<option>Avanzado: Consulta, Altas, Manejo Usuarios</option> </select></p></td></tr>
+		<tr><td><center><input type="submit" value="ENVIAR" name="ok" id="ok" /> </center></td></tr></form><center><form>  </form></center> </td></tr>
+		<tr><td><center>  <a href="../Principal.html">Volver</a></center></td></tr>
+		</table>
+		  
+	</body>
+</html>
